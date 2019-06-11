@@ -4,7 +4,7 @@
 
 ### Use Docker
 
-The quickest way to run the code is to use the provided PyTorch Docker image which has all dependencies already installed, see [docker/pytorch-netsimilarity] for instructions to built that image.
+The quickest way to run the code is to use the provided PyTorch Docker image which has all dependencies already installed, see [docker/pytorch-netsimilarity](docker/pytorch-netsimilarity) for instructions to built that image.
 Once it is built, run is with ```sh run-docker.sh```. It will run the image with the repo folder linked inside the container (the repo folder must be in your home folder for this to work, otherwise see more detailed instructions about Docker to link specific volumes).
 
 ### Install everything yourself
@@ -21,7 +21,7 @@ Required dependencies:
 ## Launch experiments
 
 Experiments need the PyTorch environment above all setup, or the relevant Docker image.
-To launch all the experiments for the toy problem, execute the script [main_multiple_exps.py] with the default arguments like so:
+To launch all the experiments for the toy problem, execute the script [main_multiple_exps.py](main_multiple_exps.py) with the default arguments like so:
 ```
 python main_multiple_exps.py --new_exp
 ```

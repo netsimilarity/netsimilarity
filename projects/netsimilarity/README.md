@@ -4,7 +4,7 @@
 
 ### Use Docker
 
-The quickest way to run the code is to use the provided PyTorch Docker image which has all dependencies already installed, see [docker/pytorch-netsimilarity](docker/pytorch-netsimilarity) for instructions to built that image.
+The quickest way to run the code is to use the provided PyTorch Docker image which has all dependencies already installed, see [/docker/pytorch-netsimilarity](docker/pytorch-netsimilarity) for instructions to built that image.
 Once it is built, run is with ```sh run-docker.sh```. It will run the image with the repo folder linked inside the container (the repo folder must be in your home folder for this to work, otherwise see more detailed instructions about Docker to link specific volumes).
 
 ### Install everything yourself

@@ -6,7 +6,7 @@ This is the code from the submitted paper "Input Similarity from the Neural Netw
 
 ## Toy problem
 
-The code for the toy problem of the paper is in [projects/netsimilarity](projects/netsimilarity), see it's README to run experiments and plot results.
+The code for the toy problem of the paper is in [projects/netsimilarity](projects/netsimilarity), see its README to run experiments and plot results.
 
 # Docker images
 

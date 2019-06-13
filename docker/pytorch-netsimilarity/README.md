@@ -17,7 +17,14 @@ Or:
 nvidia-docker build -t pytorch-netsimilarity --rm .
 ```
 
-Run container (change the path to the netsimilarity folder if it is not in your home folder):
+----------------------
+
+Run container:
+```
+sh run.sh
+```
+
+Or (change the path to the netsimilarity folder if it is not in your home folder):
 ```
 docker run --runtime=nvidia -it --rm -v ~/netsimilarity:/workspace pytorch-netsimilarity
 ```

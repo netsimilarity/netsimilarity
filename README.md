@@ -4,14 +4,22 @@ This is the code from the submitted paper "Input Similarity from the Neural Netw
 
 # Project
 
-## Toy problem
+### Toy problem
 
 The code for the toy problem of the paper is in [projects/netsimilarity](projects/netsimilarity), see its README to run experiments and plot results.
 
+### Map alignment problem
+
+The code for the map alignment problem of the paper is in [projects/mapalign/mapalign_multires](projects/mapalign/mapalign_multires), see its README to run experiments and plot results.
+
 # Docker images
 
-For easier environment setup, Docker images with everything installed inside are provided.
+For easier environment setup, Docker images with everything installed inside are provided. For a brief introduction of Docker, see [docker](docker).
 
-## Toy problem
+### Toy problem
 
-The Docker image with PyTorch and other dependencies for the toy problem can be built with the instruction in the folder [docker/pytorch-netsimilarity](docker/pytorch-netsimilarity).
+The Docker image with PyTorch and other dependencies for the toy problem can be built with the instructions in the folder [docker/pytorch-netsimilarity](docker/pytorch-netsimilarity).
+
+### Map alignment problem
+
+The Docker image with Tensorflow and other dependencies for the map alignment problem can be built with the instructions in the folder [docker/tensorflow-mapalign](docker/tensorflow-mapalign).

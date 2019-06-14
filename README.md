@@ -2,7 +2,7 @@
 
 This is the code from the submitted paper "Input Similarity from the Neural Network Perspective".
 
-# Project
+# Projects
 
 ### Toy problem
 
@@ -11,6 +11,10 @@ The code for the toy problem of the paper is in [projects/netsimilarity](project
 ### Map alignment problem
 
 The code for the map alignment problem of the paper is in [projects/mapalign/mapalign_multires](projects/mapalign/mapalign_multires), see its README to run experiments and plot results.
+
+### Nabla Sim MNIST
+
+The code for the experiment about forcing similarities between pairs of training samples while training can be found in [projects/nabla_sim_mnist](projects/nabla_sim_mnist).
 
 # Docker images
 

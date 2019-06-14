@@ -9,6 +9,7 @@ The code uses a few Python libraries such as Tensorflow, etc.
 The docker image 
 [tensorflow-mapalign](../../../docker/tensorflow-mapalign) has all the needed dependencies.
 See the instructions in the [docker](../../../docker) folder to install docker and build that image.
+Then start that Docker image with ```sh run-docker.sh```. 
 
 # Download datasets
 

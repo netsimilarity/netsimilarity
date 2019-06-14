@@ -14,4 +14,4 @@ Launch that Docker image with ```sh run-docker.sh```.
 
 Execute```python main.py``` to launch the training.
 
-THen open and run [notebooks/mnist_viz.ipynb](notebooks/mnist_viz.ipynb) to visualize the results. You can start a Jupyter notebook from the pytorch-netsimilarity Docker image with ```sh /start_jupyter.sh```.
+Then open and run [notebooks/mnist_viz.ipynb](notebooks/mnist_viz.ipynb) to visualize the results. You can start a Jupyter notebook from the pytorch-netsimilarity Docker image with ```sh /start_jupyter.sh```.

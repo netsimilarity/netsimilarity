@@ -28,3 +28,5 @@ Or (change the path to the netsimilarity folder if it is not in your home folder
 ```
 docker run --runtime=nvidia -it --rm -v ~/netsimilarity:/workspace pytorch-netsimilarity
 ```
+
+Then you can launch Jupyter with ```sh /start_jupyter.sh```

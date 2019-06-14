@@ -60,6 +60,6 @@ ENV WORKDIR=/workspace
 VOLUME $WORKDIR
 WORKDIR $WORKDIR
 
-COPY start_jupyter.sh $WORKDIR
+COPY start_jupyter.sh /
 
 CMD fish
